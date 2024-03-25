@@ -1,6 +1,6 @@
-import LayoutOne from '../../../components/layouts/LayoutOne';
+import LayoutOne from 'components/layouts/LayoutOne';
 import productData from '../../../data/product.json';
-import ProductDetailTwo from '../../../components/productDetail/ProductDetailTwo';
+import ProductDetailTwo from 'components/productDetail/ProductDetailTwo';
 
 export default function product() {
   console.log();

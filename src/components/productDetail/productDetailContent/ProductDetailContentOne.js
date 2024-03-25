@@ -4,9 +4,9 @@ import React, { useState } from 'react';
 import Countdown, { zeroPad } from 'react-countdown';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { checkAvaiableQuantityToAdd } from '../../../utils/shopUtils';
-import { addToCart } from '../../../redux/actions/cartActions';
-import { formatNumber } from '../../../utils/number';
+import { checkAvaiableQuantityToAdd } from 'utils/shopUtils';
+import { addToCart } from 'redux/actions/cartActions';
+import { formatNumber } from 'utils/number';
 import QuantitySelector from '../../controls/QuantitySelector';
 import ProductGuaranteed from '../elements/ProductGuaranteed';
 

@@ -6,10 +6,10 @@ import { useDispatch, useSelector } from 'react-redux';
 import {
   checkAvaiableQuantityToAdd,
   checkProductInCart,
-} from '../../utils/shopUtils';
-import { addToCart } from '../../redux/actions/cartActions';
-import { removeFromWishlist } from '../../redux/actions/wishlistActions';
-import { formatNumber } from '../../utils/number';
+} from 'utils/shopUtils';
+import { addToCart } from 'redux/actions/cartActions';
+import { removeFromWishlist } from 'redux/actions/wishlistActions';
+import { formatNumber } from 'utils/number';
 
 function WishlistSidebarItem({ data }) {
   const dispatch = useDispatch();

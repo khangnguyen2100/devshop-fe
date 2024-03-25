@@ -1,7 +1,7 @@
 import { Select } from 'antd';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { setSort } from '../../redux/actions/shopActions';
+import { setSort } from 'redux/actions/shopActions';
 
 function ShopContentHeader({ data, productPerPage }) {
   const { Option } = Select;

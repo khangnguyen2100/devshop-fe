@@ -1,6 +1,6 @@
-import LayoutOne from '../../components/layouts/LayoutOne';
-import Container from '../../components/other/Container';
-import { formatNumber } from '../../utils/number';
+import LayoutOne from 'components/layouts/LayoutOne';
+import Container from 'components/other/Container';
+import { formatNumber } from 'utils/number';
 
 export default function checkoutComplete() {
   return (

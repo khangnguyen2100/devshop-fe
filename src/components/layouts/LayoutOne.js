@@ -5,7 +5,7 @@ import classNames from 'classnames';
 
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
-import WithHeaderScroll from '../../utils/WithHeaderScroll';
+import WithHeaderScroll from 'utils/WithHeaderScroll';
 
 const ScrollHeader = WithHeaderScroll(Header);
 

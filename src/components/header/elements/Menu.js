@@ -4,13 +4,13 @@ import { Button, Drawer } from 'antd';
 import { useSelector, useDispatch } from 'react-redux';
 import { CloseOutlined } from '@ant-design/icons';
 
-import productsData from '../../../data/product.json';
-import CartSidebar from '../../cart/CartSidebar';
-import WishlistSidebar from '../../wishlist/WishlistSidebar';
+import productsData from 'src/data/product.json';
+import CartSidebar from 'components/cart/CartSidebar';
+import WishlistSidebar from 'components/wishlist/WishlistSidebar';
 import MenuSidebar from './MenuSidebar';
 import SearchBar from './SearchBar';
-import { getTotalProductInCart } from '../../../utils/shopUtils';
-import Container from '../../other/Container';
+import { getTotalProductInCart } from 'src/utils/shopUtils';
+import Container from 'components/other/Container';
 
 function Menu({ containerType }) {
   const cartState = useSelector(state => state.cartReducer);

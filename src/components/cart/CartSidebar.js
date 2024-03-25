@@ -3,8 +3,8 @@ import Link from 'next/link';
 import React from 'react';
 import { useSelector } from 'react-redux';
 
-import { formatNumber } from '../../utils/number';
-import { calculateTotalPrice } from '../../utils/shopUtils';
+import { formatNumber } from 'utils/number';
+import { calculateTotalPrice } from 'utils/shopUtils';
 import CartSidebarItem from './CartSidebarItem';
 
 function CartSidebar() {

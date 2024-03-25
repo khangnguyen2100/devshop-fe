@@ -3,14 +3,14 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { SHOP } from '../../../constants/common';
-import { getProductsByCategory } from '../../../utils/shopUtils';
-import useDebounce from '../../../hooks/useDebound';
+import { SHOP } from 'constants/common';
+import { getProductsByCategory } from 'utils/shopUtils';
+import useDebounce from 'hooks/useDebound';
 import {
   setGlobalCategory,
   setGlobalSearch,
-} from '../../../redux/actions/globalActions';
-import { setSubCategory } from '../../../redux/actions/shopActions';
+} from 'redux/actions/globalActions';
+import { setSubCategory } from 'redux/actions/shopActions';
 function SearchBarMobile({ fillData, placeholder }) {
   const { Option } = Select;
   const router = useRouter();

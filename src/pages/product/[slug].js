@@ -1,10 +1,10 @@
 import { useRouter } from 'next/router';
 
-import LayoutOne from '../../components/layouts/LayoutOne';
-import { getProductsBySlug } from '../../utils/shopUtils';
+import LayoutOne from 'components/layouts/LayoutOne';
+import { getProductsBySlug } from 'utils/shopUtils';
 import productData from '../../data/product.json';
-import ProductDetailOne from '../../components/productDetail/ProductDetailOne';
-import { capitalizeFirstLetter } from '../../utils/string';
+import ProductDetailOne from 'components/productDetail/ProductDetailOne';
+import { capitalizeFirstLetter } from 'utils/string';
 
 export default function pid() {
   const router = useRouter();

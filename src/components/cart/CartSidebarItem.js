@@ -7,8 +7,8 @@ import {
   decreaseQuantityCart,
   increaseQuantityCart,
   removeFromCart,
-} from '../../redux/actions/cartActions';
-import { formatNumber } from '../../utils/number';
+} from 'redux/actions/cartActions';
+import { formatNumber } from 'utils/number';
 import QuantitySelector from '../controls/QuantitySelector';
 
 function CartSidebarItem({ data }) {

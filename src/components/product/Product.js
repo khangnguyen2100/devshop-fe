@@ -7,13 +7,13 @@ import { useDispatch, useSelector } from 'react-redux';
 import {
   checkAvaiableQuantityToAdd,
   checkProductInWishlist,
-} from '../../utils/shopUtils';
-import { addToCart } from '../../redux/actions/cartActions';
+} from 'utils/shopUtils';
+import { addToCart } from 'redux/actions/cartActions';
 import {
   addToWishlist,
   removeFromWishlist,
-} from '../../redux/actions/wishlistActions';
-import { formatNumber } from '../../utils/number';
+} from 'redux/actions/wishlistActions';
+import { formatNumber } from 'utils/number';
 import ShopQuickView from '../shop/ShopQuickView';
 
 function Product({ data, productStyle }) {

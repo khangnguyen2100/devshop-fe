@@ -14,12 +14,12 @@ import { useCallback, useState } from 'react';
 import { useSelector } from 'react-redux';
 import Slider from 'react-slick';
 
-import { calculateTotalPrice } from '../../utils/shopUtils';
-import LayoutOne from '../../components/layouts/LayoutOne';
-import Container from '../../components/other/Container';
-import Product from '../../components/product/Product';
+import { calculateTotalPrice } from 'utils/shopUtils';
+import LayoutOne from 'components/layouts/LayoutOne';
+import Container from 'components/other/Container';
+import Product from 'components/product/Product';
 import productData from '../../data/product.json';
-import { formatNumber } from '../../utils/number';
+import { formatNumber } from 'utils/number';
 
 const paymentData = [
   {

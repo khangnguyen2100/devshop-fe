@@ -1,6 +1,6 @@
-import LayoutOne from '../../../components/layouts/LayoutOne';
+import LayoutOne from 'components/layouts/LayoutOne';
 import productData from '../../../data/product.json';
-import ProductDetailOne from '../../../components/productDetail/ProductDetailOne';
+import ProductDetailOne from 'components/productDetail/ProductDetailOne';
 
 export default function pid() {
   return (
