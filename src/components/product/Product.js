@@ -1,19 +1,19 @@
-import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { Rate, Button, Tooltip, Skeleton, message, Modal, Spin } from 'antd';
-import { useSelector, useDispatch } from 'react-redux';
+import { Button, Modal, Rate, Skeleton, Spin, Tooltip, message } from 'antd';
 import classNames from 'classnames';
+import Link from 'next/link';
+import React, { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 
-import { formatCurrency } from '../../common/utils';
 import {
-  checkProductInWishlist,
   checkAvaiableQuantityToAdd,
-} from '../../common/shopUtils';
+  checkProductInWishlist,
+} from '../../utils/shopUtils';
 import { addToCart } from '../../redux/actions/cartActions';
 import {
   addToWishlist,
   removeFromWishlist,
 } from '../../redux/actions/wishlistActions';
+import { formatNumber } from '../../utils/number';
 import ShopQuickView from '../shop/ShopQuickView';
 
 function Product({ data, productStyle }) {
@@ -178,16 +178,10 @@ function Product({ data, productStyle }) {
             <div className='product-content__footer-price'>
               <h5 className='product-price'>
                 {data.discount
-                  ? formatCurrency(
-                      data.price - data.discount,
-                      locales,
-                      currency,
-                    )
-                  : formatCurrency(data.price, locales, currency)}
+                  ? formatNumber(data.price - data.discount)
+                  : formatNumber(data.price)}
               </h5>
-              {data.discount && (
-                <span>{formatCurrency(data.price, locales, currency)}</span>
-              )}
+              {data.discount && <span>{formatNumber(data.price)}</span>}
             </div>
             {!productStyle || productStyle === 'one' ? (
               <Tooltip title='Add to cart'>

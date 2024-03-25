@@ -9,7 +9,7 @@ import CartSidebar from '../../cart/CartSidebar';
 import WishlistSidebar from '../../wishlist/WishlistSidebar';
 import MenuSidebar from './MenuSidebar';
 import SearchBar from './SearchBar';
-import { getTotalProductInCart } from '../../../common/shopUtils';
+import { getTotalProductInCart } from '../../../utils/shopUtils';
 import Container from '../../other/Container';
 
 function Menu({ containerType }) {
@@ -125,7 +125,7 @@ function Menu({ containerType }) {
       <Drawer
         placement='right'
         closable={true}
-        title=' sasdasdasdasdasd'
+        title=' '
         onClose={() => setMenuSidebarOpen(false)}
         closeIcon={
           <>

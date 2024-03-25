@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import { Button, Modal, message } from 'antd';
 import Link from 'next/link';
-import { Modal, message, Button } from 'antd';
-import { useSelector, useDispatch } from 'react-redux';
+import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 
-import { formatCurrency } from '../../common/utils';
 import {
   checkAvaiableQuantityToAdd,
   checkProductInCart,
-} from '../../common/shopUtils';
-import { removeFromWishlist } from '../../redux/actions/wishlistActions';
+} from '../../utils/shopUtils';
 import { addToCart } from '../../redux/actions/cartActions';
+import { removeFromWishlist } from '../../redux/actions/wishlistActions';
+import { formatNumber } from '../../utils/number';
 
 function WishlistSidebarItem({ data }) {
   const dispatch = useDispatch();
@@ -57,8 +57,8 @@ function WishlistSidebarItem({ data }) {
           </Link>
           <h5>
             {data.discount
-              ? formatCurrency(data.price - data.discount, locales, currency)
-              : formatCurrency(data.price, locales, currency)}
+              ? formatNumber(data.price - data.discount)
+              : formatNumber(data.price)}
           </h5>
           {data.quantity < 1 ? (
             <>

@@ -1,4 +1,4 @@
-import { initializeStore } from '../redux/store';
+import { initializeStore } from './store';
 
 const isServer = typeof window === 'undefined';
 const __NEXT_REDUX_STORE__ = '__NEXT_REDUX_STORE__';

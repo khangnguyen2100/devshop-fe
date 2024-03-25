@@ -1,22 +1,20 @@
-import React, { useState } from 'react';
-import Link from 'next/link';
 import { Modal, message } from 'antd';
-import { useSelector, useDispatch } from 'react-redux';
+import Link from 'next/link';
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
 
-import { formatCurrency } from '../../common/utils';
-import QuantitySelector from '../controls/QuantitySelector';
 import {
-  removeFromCart,
   decreaseQuantityCart,
   increaseQuantityCart,
+  removeFromCart,
 } from '../../redux/actions/cartActions';
+import { formatNumber } from '../../utils/number';
+import QuantitySelector from '../controls/QuantitySelector';
 
 function CartSidebarItem({ data }) {
   const dispatch = useDispatch();
   const [visible, setVisible] = useState(false);
   const [quantity, setQuantity] = useState(data.cartQuantity);
-  const globalState = useSelector(state => state.globalReducer);
-  const { currency, locales } = globalState.currency;
   const onRemoveProductFromCart = e => {
     e.preventDefault();
     showModal();
@@ -49,16 +47,8 @@ function CartSidebarItem({ data }) {
           </Link>
           <h5>
             {data.discount
-              ? formatCurrency(
-                  (data.price - data.discount) * data.cartQuantity,
-                  locales,
-                  currency,
-                )
-              : formatCurrency(
-                  data.price * data.cartQuantity,
-                  locales,
-                  currency,
-                )}
+              ? formatNumber((data.price - data.discount) * data.cartQuantity)
+              : formatNumber(data.price * data.cartQuantity)}
           </h5>
           <QuantitySelector
             size='small'

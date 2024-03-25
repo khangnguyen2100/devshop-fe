@@ -5,7 +5,7 @@ import Banners from '../components/shop/Banners';
 import LayoutOne from '../components/layouts/LayoutOne';
 import ShopLayout from '../components/shop/ShopLayout';
 import productData from '../data/product.json';
-import useProductData from '../common/useProductData';
+import useProductData from '../hooks/useProductData';
 
 export default function Home() {
   const router = useRouter();

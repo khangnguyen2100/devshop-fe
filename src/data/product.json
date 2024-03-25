@@ -6,7 +6,7 @@
     "name": "Jack & Jones Men's T-Shirt",
     "rate": 4,
     "reviewCount": 10,
-    "price": 59.99,
+    "price": 59.9900000,
     "discount": 20,
     "new": true,
     "quantity": 8,
@@ -41,7 +41,7 @@
     "subCategory": "coat",
     "name": "Fold Over Collar Plain Blazers",
     "rate": 5,
-    "price": 84,
+    "price": 8400000,
     "quantity": 6,
     "isNew": true,
     "sex": "men",
@@ -74,7 +74,7 @@
     "subCategory": "shirt",
     "name": "Ivory Check Longline Tunic Shirt",
     "rate": 5,
-    "price": 69,
+    "price": 6900000,
     "quantity": 12,
     "sex": "men",
     "size": [
@@ -117,7 +117,7 @@
     "subCategory": "pants",
     "name": "Vero Moda Coco Wide Pant",
     "rate": 3,
-    "price": 36,
+    "price": 3600000,
     "quantity": 4,
     "sex": "men",
     "thumbImage": [
@@ -139,7 +139,7 @@
     "subCategory": "suits",
     "name": "Boxy Cardigan",
     "rate": 4,
-    "price": 72,
+    "price": 7200000,
     "discount": 13,
     "quantity": 9,
     "sex": "women",
@@ -162,7 +162,7 @@
     "subCategory": "dress",
     "name": "New now committed brothers & sisters",
     "rate": 5,
-    "price": 69,
+    "price": 6900000,
     "quantity": 9,
     "sex": "women",
     "thumbImage": [
@@ -184,7 +184,7 @@
     "subCategory": "shorts",
     "name": "Scotch Soda Skim Jeans",
     "rate": 5,
-    "price": 29,
+    "price": 2900000,
     "isNew": true,
     "quantity": 0,
     "sex": "women",
@@ -207,7 +207,7 @@
     "subCategory": "dress",
     "name": "Champion dress",
     "rate": 4,
-    "price": 35,
+    "price": 3500000,
     "quantity": 16,
     "sex": "men",
     "thumbImage": [
@@ -229,7 +229,7 @@
     "subCategory": "suits",
     "name": "Solid Notch Lapel Single Button Long Sleeve Blazer",
     "rate": 5,
-    "price": 75,
+    "price": 7500000,
     "quantity": 6,
     "sex": "men",
     "thumbImage": [
@@ -251,7 +251,7 @@
     "subCategory": "shirt",
     "name": "Levi'S Western Denim Shirt",
     "rate": 5,
-    "price": 37,
+    "price": 3700000,
     "quantity": 25,
     "sex": "men",
     "thumbImage": [
@@ -273,7 +273,7 @@
     "subCategory": "jacket",
     "name": "Loap Infery Kids Winter Jacket",
     "rate": 5,
-    "price": 37,
+    "price": 3700000,
     "quantity": 25,
     "sex": "men",
     "thumbImage": [
@@ -295,7 +295,7 @@
     "subCategory": "pants",
     "name": "Richtan Hero",
     "rate": 4,
-    "price": 22,
+    "price": 2200000,
     "quantity": 30,
     "isNew": true,
     "sex": "men",
@@ -318,7 +318,7 @@
     "subCategory": "suits",
     "name": "David Jones",
     "rate": 5,
-    "price": 78,
+    "price": 7800000,
     "quantity": 3,
     "sex": "men",
     "thumbImage": [
@@ -340,7 +340,7 @@
     "subCategory": "dress",
     "name": "Basic Hollow Out Flared Midi Skirt",
     "rate": 3,
-    "price": 22,
+    "price": 2200000,
     "quantity": 18,
     "sex": "men",
     "thumbImage": [
@@ -362,7 +362,7 @@
     "subCategory": "shorts",
     "name": "Plain Midi Flared Skirts",
     "rate": 3,
-    "price": 22,
+    "price": 2200000,
     "quantity": 18,
     "discount": 4,
     "sex": "men",
@@ -385,7 +385,7 @@
     "subCategory": "shirt",
     "name": "Lapel Zips Plain Long Sleeve Jackets",
     "rate": 5,
-    "price": 36,
+    "price": 3600000,
     "quantity": 6,
     "sex": "men",
     "thumbImage": [
@@ -407,7 +407,7 @@
     "subCategory": "vegatables",
     "name": "Onion",
     "rate": 5,
-    "price": 12,
+    "price": 1200000,
     "quantity": 6,
     "thumbImage": [
       "/assets/images/products/fruits/1.png",
@@ -428,7 +428,7 @@
     "subCategory": "vegatables",
     "name": "Samba onion",
     "rate": 5,
-    "price": 12,
+    "price": 1200000,
     "quantity": 6,
     "thumbImage": [
       "/assets/images/products/fruits/2.png",
@@ -449,7 +449,7 @@
     "subCategory": "vegatables",
     "name": "tomato",
     "rate": 4,
-    "price": 8,
+    "price": 800000,
     "quantity": 6,
     "thumbImage": [
       "/assets/images/products/fruits/3.png",
@@ -470,7 +470,7 @@
     "subCategory": "fruits",
     "name": "potatoes",
     "rate": 5,
-    "price": 12,
+    "price": 1200000,
     "quantity": 6,
     "thumbImage": [
       "/assets/images/products/fruits/4.png",
@@ -491,7 +491,7 @@
     "subCategory": "vegatables",
     "name": "lady finger",
     "rate": 3,
-    "price": 6,
+    "price": 600000,
     "quantity": 15,
     "thumbImage": [
       "/assets/images/products/fruits/5.png",
@@ -512,7 +512,7 @@
     "subCategory": "vegatables",
     "name": "gingerbone",
     "rate": 4,
-    "price": 10,
+    "price": 1000000,
     "quantity": 6,
     "thumbImage": [
       "/assets/images/products/fruits/6.png",
@@ -533,7 +533,7 @@
     "subCategory": "fruits",
     "name": "lemon",
     "rate": 5,
-    "price": 5,
+    "price": 500000,
     "quantity": 6,
     "thumbImage": [
       "/assets/images/products/fruits/7.png",
@@ -554,7 +554,7 @@
     "subCategory": "fruits",
     "name": "pear",
     "rate": 4,
-    "price": 10,
+    "price": 1000000,
     "quantity": 6,
     "thumbImage": [
       "/assets/images/products/fruits/8.png",
@@ -575,7 +575,7 @@
     "subCategory": "vegatables",
     "name": "Green capsicum",
     "rate": 5,
-    "price": 13,
+    "price": 1300000,
     "quantity": 9,
     "thumbImage": [
       "/assets/images/products/fruits/9.png",
@@ -596,7 +596,7 @@
     "subCategory": "vegatables",
     "name": "Garlic",
     "rate": 5,
-    "price": 5,
+    "price": 500000,
     "quantity": 26,
     "thumbImage": [
       "/assets/images/products/fruits/10.png",
@@ -617,7 +617,7 @@
     "subCategory": "nut",
     "name": "coconut",
     "rate": 5,
-    "price": 20,
+    "price": 2000000,
     "quantity": 30,
     "thumbImage": [
       "/assets/images/products/fruits/11.png",
@@ -638,7 +638,7 @@
     "subCategory": "fruits",
     "name": "Watermelon",
     "rate": 4,
-    "price": 22,
+    "price": 2200000,
     "discount": 2,
     "quantity": 17,
     "thumbImage": [
@@ -660,7 +660,7 @@
     "subCategory": "vegatables",
     "name": "bitter melon",
     "rate": 4,
-    "price": 11,
+    "price": 1100000,
     "quantity": 6,
     "thumbImage": [
       "/assets/images/products/fruits/13.png",
@@ -681,7 +681,7 @@
     "subCategory": "fruits",
     "name": "Mango",
     "rate": 5,
-    "price": 26,
+    "price": 2600000,
     "discount": 5,
     "quantity": 6,
     "thumbImage": [
@@ -703,7 +703,7 @@
     "subCategory": "fruits",
     "name": "Pomegranate",
     "rate": 4,
-    "price": 11,
+    "price": 1100000,
     "quantity": 6,
     "thumbImage": [
       "/assets/images/products/fruits/15.png",
@@ -724,7 +724,7 @@
     "subCategory": "vegatables",
     "name": "Cabbage",
     "rate": 3,
-    "price": 16,
+    "price": 1600000,
     "quantity": 20,
     "thumbImage": [
       "/assets/images/products/fruits/16.png",
@@ -745,7 +745,7 @@
     "subCategory": "fruits",
     "name": "Orange",
     "rate": 5,
-    "price": 13,
+    "price": 1300000,
     "isNew": true,
     "quantity": 6,
     "thumbImage": [
@@ -767,7 +767,7 @@
     "subCategory": "vegatables",
     "name": "Cauliflower",
     "rate": 4,
-    "price": 23,
+    "price": 2300000,
     "quantity": 8,
     "thumbImage": [
       "/assets/images/products/fruits/18.png",
@@ -788,7 +788,7 @@
     "subCategory": "fridge",
     "name": "Panasonic Inverter",
     "rate": 4,
-    "price": 356,
+    "price": 35600000,
     "quantity": 8,
     "thumbImage": [
       "/assets/images/products/electronic/1.png",
@@ -809,7 +809,7 @@
     "subCategory": "tv",
     "name": "LG Smart Tv 4k 55 inch",
     "rate": 4,
-    "price": 399,
+    "price": 39900000,
     "discount": 50,
     "quantity": 8,
     "thumbImage": [
@@ -831,7 +831,7 @@
     "subCategory": "tv",
     "name": "Samsung Smart Tv 4K 55 inch",
     "rate": 5,
-    "price": 599,
+    "price": 59900000,
     "quantity": 10,
     "thumbImage": [
       "/assets/images/products/electronic/3.png",
@@ -852,7 +852,7 @@
     "subCategory": "phone",
     "name": "Apple iphone 11 pro max",
     "rate": 4,
-    "price": 356,
+    "price": 35600000,
     "quantity": 8,
     "thumbImage": [
       "/assets/images/products/electronic/4.png",
@@ -873,7 +873,7 @@
     "subCategory": "phone",
     "name": "Apple iphone 6s",
     "rate": 5,
-    "price": 299,
+    "price": 29900000,
     "quantity": 13,
     "thumbImage": [
       "/assets/images/products/electronic/5.png",
@@ -894,7 +894,7 @@
     "subCategory": "fridge",
     "name": "Bosch 7 kg Fully-Automatic Front Loading Washing Machine",
     "rate": 4,
-    "price": 799,
+    "price": 79900000,
     "isNew": true,
     "quantity": 12,
     "thumbImage": [
@@ -916,7 +916,7 @@
     "subCategory": "air conditioning",
     "name": "Split Wall Mounted Air Conditioner 12000 Btu With Led",
     "rate": 3,
-    "price": 459,
+    "price": 45900000,
     "quantity": 8,
     "thumbImage": [
       "/assets/images/products/electronic/7.png",
@@ -937,7 +937,7 @@
     "subCategory": "fan",
     "name": "Challenge Black Oscillating Desk Fan",
     "rate": 5,
-    "price": 199,
+    "price": 19900000,
     "quantity": 13,
     "thumbImage": [
       "/assets/images/products/electronic/8.png",
@@ -958,7 +958,7 @@
     "subCategory": "fan",
     "name": "Lasko Adjustable-Height 16",
     "rate": 3,
-    "price": 215,
+    "price": 21500000,
     "quantity": 8,
     "thumbImage": [
       "/assets/images/products/electronic/9.png",
@@ -979,7 +979,7 @@
     "subCategory": "speaker",
     "name": "JBL Link Music Bluetooth Speaker",
     "rate": 5,
-    "price": 239,
+    "price": 23900000,
     "quantity": 4,
     "thumbImage": [
       "/assets/images/products/electronic/10.png",
@@ -1000,7 +1000,7 @@
     "subCategory": "speaker",
     "name": "Sony High Power XB60 Portable Bluetooth Speaker",
     "rate": 5,
-    "price": 199,
+    "price": 19900000,
     "quantity": 23,
     "thumbImage": [
       "/assets/images/products/electronic/11.png",
@@ -1021,7 +1021,7 @@
     "subCategory": "speaker",
     "name": "Sony Wireless Headphones WH-CH510",
     "rate": 4,
-    "price": 267,
+    "price": 26700000,
     "quantity": 17,
     "thumbImage": [
       "/assets/images/products/electronic/12.png",
@@ -1042,7 +1042,7 @@
     "subCategory": "speaker",
     "name": "Wired Exclusive Smart Design Sony Headphones",
     "rate": 5,
-    "price": 145,
+    "price": 14500000,
     "quantity": 11,
     "isNew": true,
     "thumbImage": [
@@ -1064,7 +1064,7 @@
     "subCategory": "fridge",
     "name": "Playstation 4 pro edition",
     "rate": 5,
-    "price": 365,
+    "price": 36500000,
     "quantity": 8,
     "thumbImage": [
       "/assets/images/products/electronic/14.png",
@@ -1085,7 +1085,7 @@
     "subCategory": "speaker",
     "name": "Sony High Power XB60 Portable Bluetooth Speaker",
     "rate": 5,
-    "price": 199,
+    "price": 19900000,
     "quantity": 23,
     "thumbImage": [
       "/assets/images/products/electronic/15.png",
@@ -1106,7 +1106,7 @@
     "subCategory": "speaker",
     "name": "Nintendo Switch Lite Turquoise",
     "rate": 5,
-    "price": 229,
+    "price": 22900000,
     "quantity": 16,
     "discount": 15,
     "thumbImage": [
@@ -1128,7 +1128,7 @@
     "subCategory": "phone",
     "name": "Eureka PowerSpeed Bagless Upright Vacuum Cleaner",
     "rate": 4,
-    "price": 399,
+    "price": 39900000,
     "quantity": 4,
     "thumbImage": [
       "/assets/images/products/electronic/17.png",
@@ -1149,7 +1149,7 @@
     "subCategory": "speaker",
     "name": "sailing smart robot vacuum cleaner powerful",
     "rate": 5,
-    "price": 199,
+    "price": 19900000,
     "quantity": 23,
     "thumbImage": [
       "/assets/images/products/electronic/18.png",
@@ -1170,7 +1170,7 @@
     "subCategory": "tv",
     "name": "Winterhalter Undercounter Dishwasher",
     "rate": 4,
-    "price": 699,
+    "price": 69900000,
     "isNew": true,
     "quantity": 8,
     "thumbImage": [
@@ -1192,7 +1192,7 @@
     "subCategory": "chair",
     "name": "Afteroom Dining Chair",
     "rate": 5,
-    "price": 389,
+    "price": 38900000,
     "quantity": 10,
     "thumbImage": [
       "/assets/images/products/furniture/1.png",
@@ -1213,7 +1213,7 @@
     "subCategory": "chair",
     "name": "Affordances Side Table",
     "rate": 5,
-    "price": 299,
+    "price": 29900000,
     "discount": 10,
     "quantity": 6,
     "thumbImage": [
@@ -1235,7 +1235,7 @@
     "subCategory": "chair",
     "name": "Armchair 811",
     "rate": 5,
-    "price": 276,
+    "price": 27600000,
     "quantity": 2,
     "thumbImage": [
       "/assets/images/products/furniture/3.png",
@@ -1256,7 +1256,7 @@
     "subCategory": "chair",
     "name": "Bird Stool",
     "rate": 4,
-    "price": 99,
+    "price": 9900000,
     "quantity": 40,
     "thumbImage": [
       "/assets/images/products/furniture/4.png",
@@ -1277,7 +1277,7 @@
     "subCategory": "table",
     "name": "64 Bench",
     "rate": 5,
-    "price": 457,
+    "price": 45700000,
     "quantity": 3,
     "isNew": true,
     "thumbImage": [
@@ -1299,7 +1299,7 @@
     "subCategory": "table",
     "name": "August Stool",
     "rate": 3,
-    "price": 129,
+    "price": 12900000,
     "quantity": 13,
     "thumbImage": [
       "/assets/images/products/furniture/6.png",
@@ -1320,7 +1320,7 @@
     "subCategory": "chair",
     "name": "Aurea Coffee Table",
     "rate": 4,
-    "price": 155,
+    "price": 15500000,
     "quantity": 14,
     "thumbImage": [
       "/assets/images/products/furniture/7.png",
@@ -1341,7 +1341,7 @@
     "subCategory": "chair",
     "name": "BM62 Armchair",
     "rate": 5,
-    "price": 369,
+    "price": 36900000,
     "quantity": 29,
     "thumbImage": [
       "/assets/images/products/furniture/8.png",
@@ -1362,7 +1362,7 @@
     "subCategory": "cabinet",
     "name": "Carabottino Cabinet",
     "rate": 5,
-    "price": 4209,
+    "price": 420900000,
     "quantity": 5,
     "isNew": true,
     "thumbImage": [
@@ -1384,7 +1384,7 @@
     "subCategory": "bed",
     "name": "Covent Sofa Narrow, 3 Seater",
     "rate": 5,
-    "price": 625,
+    "price": 62500000,
     "quantity": 8,
     "thumbImage": [
       "/assets/images/products/furniture/10.png",
@@ -1405,7 +1405,7 @@
     "subCategory": "bed",
     "name": "Clerici Lounge Chair",
     "rate": 5,
-    "price": 625,
+    "price": 62500000,
     "quantity": 8,
     "thumbImage": [
       "/assets/images/products/furniture/11.png",
@@ -1426,7 +1426,7 @@
     "subCategory": "chair",
     "name": "Coast Table Square",
     "rate": 3,
-    "price": 459,
+    "price": 45900000,
     "discount": 15,
     "quantity": 6,
     "thumbImage": [
@@ -1448,7 +1448,7 @@
     "subCategory": "bed",
     "name": "Cugino",
     "rate": 5,
-    "price": 149,
+    "price": 14900000,
     "quantity": 26,
     "thumbImage": [
       "/assets/images/products/furniture/13.png",
@@ -1469,7 +1469,7 @@
     "subCategory": "bed",
     "name": "DL1 Tangram Low Side Table",
     "rate": 5,
-    "price": 479,
+    "price": 47900000,
     "quantity": 9,
     "thumbImage": [
       "/assets/images/products/furniture/14.png",
@@ -1490,7 +1490,7 @@
     "subCategory": "cabinet",
     "name": "Champ Stool",
     "rate": 5,
-    "price": 149,
+    "price": 14900000,
     "isNew": true,
     "quantity": 26,
     "thumbImage": [
@@ -1512,7 +1512,7 @@
     "subCategory": "cabinet",
     "name": "Circle Mirror",
     "rate": 4,
-    "price": 129,
+    "price": 12900000,
     "quantity": 26,
     "thumbImage": [
       "/assets/images/products/furniture/16.png",
@@ -1533,7 +1533,7 @@
     "subCategory": "lamp",
     "name": "Carrie",
     "rate": 5,
-    "price": 49,
+    "price": 4900000,
     "quantity": 8,
     "thumbImage": [
       "/assets/images/products/furniture/17.png",
@@ -1554,7 +1554,7 @@
     "subCategory": "lipstick",
     "name": "The expert mascaraa",
     "rate": 4,
-    "price": 35,
+    "price": 3500000,
     "new": true,
     "quantity": 0,
     "variation": [
@@ -1586,7 +1586,7 @@
     "subCategory": "lipstick",
     "name": "Velvet Melon High Intensity",
     "rate": 5,
-    "price": 38,
+    "price": 3800000,
     "quantity": 12,
     "thumbImage": [
       "/assets/images/products/comestic/2.png",
@@ -1607,7 +1607,7 @@
     "subCategory": "lipstick",
     "name": "Leather shopper bag",
     "rate": 4,
-    "price": 35,
+    "price": 3500000,
     "discount": 5,
     "quantity": 3,
     "thumbImage": [
@@ -1629,7 +1629,7 @@
     "subCategory": "powder",
     "name": "Luxe jewel lipstick",
     "rate": 5,
-    "price": 38,
+    "price": 3800000,
     "quantity": 12,
     "thumbImage": [
       "/assets/images/products/comestic/4.png",
@@ -1650,7 +1650,7 @@
     "subCategory": "powder",
     "name": "Penpoint seamless beauty",
     "rate": 5,
-    "price": 40,
+    "price": 4000000,
     "quantity": 12,
     "isNew": true,
     "thumbImage": [
@@ -1672,7 +1672,7 @@
     "subCategory": "powder",
     "name": "The Sneaky lips",
     "rate": 5,
-    "price": 38,
+    "price": 3800000,
     "quantity": 12,
     "thumbImage": [
       "/assets/images/products/comestic/7.png",
@@ -1693,7 +1693,7 @@
     "subCategory": "perfume",
     "name": "White Facial Cream",
     "rate": 4,
-    "price": 38,
+    "price": 3800000,
     "quantity": 12,
     "thumbImage": [
       "/assets/images/products/comestic/8.png",
@@ -1714,7 +1714,7 @@
     "subCategory": "perfume",
     "name": "Orange Massage Cream",
     "rate": 4,
-    "price": 55,
+    "price": 5500000,
     "quantity": 6,
     "thumbImage": [
       "/assets/images/products/comestic/9.png",
@@ -1735,7 +1735,7 @@
     "subCategory": "perfume",
     "name": "Valinta Fairness Massage Cream",
     "rate": 4,
-    "price": 27,
+    "price": 2700000,
     "discount": 3,
     "quantity": 6,
     "thumbImage": [
@@ -1757,7 +1757,7 @@
     "subCategory": "nail polish",
     "name": "Massage Cream Cucumber",
     "rate": 4,
-    "price": 16,
+    "price": 1600000,
     "quantity": 6,
     "thumbImage": [
       "/assets/images/products/comestic/11.png",
@@ -1778,7 +1778,7 @@
     "subCategory": "nail polish",
     "name": "Matte Walnut & Bamboo Scrub",
     "rate": 4,
-    "price": 32,
+    "price": 3200000,
     "quantity": 6,
     "thumbImage": [
       "/assets/images/products/comestic/12.png",
@@ -1799,7 +1799,7 @@
     "subCategory": "mascara",
     "name": "Castor Oil BP",
     "rate": 4,
-    "price": 24,
+    "price": 2400000,
     "quantity": 6,
     "thumbImage": [
       "/assets/images/products/comestic/13.png",
@@ -1820,7 +1820,7 @@
     "subCategory": "mascara",
     "name": "Metallic Cap Cosmetic",
     "rate": 5,
-    "price": 44,
+    "price": 4400000,
     "brand": "kenzo",
     "code": "PM 03",
     "point": 17,
@@ -1844,7 +1844,7 @@
     "subCategory": "mascara",
     "name": "Photo Match Concealer",
     "rate": 5,
-    "price": 39,
+    "price": 3900000,
     "quantity": 1,
     "thumbImage": [
       "/assets/images/products/comestic/15.png",
@@ -1865,7 +1865,7 @@
     "subCategory": "nail polish",
     "name": "Matte Mousse Foundation",
     "rate": 5,
-    "price": 46,
+    "price": 4600000,
     "quantity": 1,
     "thumbImage": [
       "/assets/images/products/comestic/16.png",
@@ -1886,7 +1886,7 @@
     "subCategory": "perfume",
     "name": "White Sandal Beauty",
     "rate": 5,
-    "price": 67,
+    "price": 6700000,
     "quantity": 1,
     "thumbImage": [
       "/assets/images/products/comestic/17.png",

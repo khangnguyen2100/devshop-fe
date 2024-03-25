@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { getProductsByCategory, getProductsBySearch } from './shopUtils';
+import { useEffect, useState } from 'react';
+import { getProductsByCategory, getProductsBySearch } from '../utils/shopUtils';
 
 export default function useProductData(productData, category, query) {
   const [data, setData] = useState(productData);

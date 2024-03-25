@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import { Rate, Button, Radio, Progress, message } from 'antd';
-import Countdown, { zeroPad } from 'react-countdown';
-import { useSelector, useDispatch } from 'react-redux';
+import { Button, Progress, Radio, Rate, message } from 'antd';
 import classNames from 'classnames';
+import React, { useState } from 'react';
+import Countdown, { zeroPad } from 'react-countdown';
+import { useDispatch, useSelector } from 'react-redux';
 
-import { formatCurrency } from '../../../common/utils';
+import { checkAvaiableQuantityToAdd } from '../../../utils/shopUtils';
 import { addToCart } from '../../../redux/actions/cartActions';
-import { checkAvaiableQuantityToAdd } from '../../../common/shopUtils';
+import { formatNumber } from '../../../utils/number';
 import QuantitySelector from '../../controls/QuantitySelector';
 import ProductGuaranteed from '../elements/ProductGuaranteed';
 
@@ -51,12 +51,10 @@ function ProductDetailContentOne({
       <div className='product-detail-content-one-price'>
         <h5>
           {data.discount
-            ? formatCurrency(data.price - data.discount, locales, currency)
-            : formatCurrency(data.price, locales, currency)}
+            ? formatNumber(data.price - data.discount)
+            : formatNumber(data.price)}
         </h5>
-        {data.discount && (
-          <span>{formatCurrency(data.price, locales, currency)}</span>
-        )}
+        {data.discount && <span>{formatNumber(data.price)}</span>}
       </div>
       <p className='product-detail-content-one-description'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illo

@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import classNames from 'classnames';
 import { Select } from 'antd';
 
-import { SHOP } from '../../common/defines';
+import { SHOP } from '../../constants/common';
 import { setSubCategory } from '../../redux/actions/shopActions';
 
 function ShopSidebar({ categories }) {

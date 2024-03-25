@@ -1,5 +1,4 @@
 import LayoutOne from '../../../components/layouts/LayoutOne';
-import { capitalizeFirstLetter } from '../../../common/utils';
 import productData from '../../../data/product.json';
 import ProductDetailOne from '../../../components/productDetail/ProductDetailOne';
 

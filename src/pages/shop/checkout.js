@@ -1,25 +1,25 @@
 import {
-  Form,
-  Input,
   Button,
   Checkbox,
-  Row,
   Col,
-  Select,
   Collapse,
+  Form,
+  Input,
+  Row,
+  Select,
 } from 'antd';
-import { useState, useCallback } from 'react';
-import Slider from 'react-slick';
-import { useRouter } from 'next/router';
-import { useSelector } from 'react-redux';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useCallback, useState } from 'react';
+import { useSelector } from 'react-redux';
+import Slider from 'react-slick';
 
-import { formatCurrency } from '../../common/utils';
-import { calculateTotalPrice } from '../../common/shopUtils';
+import { calculateTotalPrice } from '../../utils/shopUtils';
 import LayoutOne from '../../components/layouts/LayoutOne';
 import Container from '../../components/other/Container';
-import productData from '../../data/product.json';
 import Product from '../../components/product/Product';
+import productData from '../../data/product.json';
+import { formatNumber } from '../../utils/number';
 
 const paymentData = [
   {
@@ -262,12 +262,8 @@ export default function checkout() {
                             </td>
                             <td>
                               {item.discount
-                                ? formatCurrency(
-                                    item.price - item.discount,
-                                    locales,
-                                    currency,
-                                  )
-                                : formatCurrency(item.price, locales, currency)}
+                                ? formatNumber(item.price - item.discount)
+                                : formatNumber(item.price)}
                             </td>
                           </tr>
                         ))}
@@ -279,11 +275,7 @@ export default function checkout() {
                         <tr>
                           <td>Subtotal</td>
                           <td>
-                            {formatCurrency(
-                              calculateTotalPrice(cartState),
-                              locales,
-                              currency,
-                            )}
+                            {formatNumber(calculateTotalPrice(cartState))}
                           </td>
                         </tr>
                       </tbody>
@@ -305,11 +297,7 @@ export default function checkout() {
                         <tr>
                           <td>Total</td>
                           <td>
-                            {formatCurrency(
-                              calculateTotalPrice(cartState),
-                              locales,
-                              currency,
-                            )}
+                            {formatNumber(calculateTotalPrice(cartState))}
                           </td>
                         </tr>
                       </tbody>
@@ -374,23 +362,11 @@ export default function checkout() {
                   <tbody>
                     <tr>
                       <td>{cartState.length} items</td>
-                      <td>
-                        {formatCurrency(
-                          calculateTotalPrice(cartState),
-                          locales,
-                          currency,
-                        )}
-                      </td>
+                      <td>{formatNumber(calculateTotalPrice(cartState))}</td>
                     </tr>
                     <tr>
                       <td>Total:</td>
-                      <td>
-                        {formatCurrency(
-                          calculateTotalPrice(cartState),
-                          locales,
-                          currency,
-                        )}
-                      </td>
+                      <td>{formatNumber(calculateTotalPrice(cartState))}</td>
                     </tr>
                   </tbody>
                 </table>

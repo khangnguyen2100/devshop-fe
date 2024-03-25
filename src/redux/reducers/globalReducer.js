@@ -4,7 +4,7 @@ const initialState = {
   language: 'en',
   currency: {
     locales: 'us-US',
-    currency: 'USD',
+    currency: 'VND',
   },
   category: 'clothing',
   keyword: '',

@@ -6,7 +6,7 @@ import Product from '../product/Product';
 import {
   getProductsByFilter,
   getProductsBySearch,
-} from '../../common/shopUtils';
+} from '../../utils/shopUtils';
 import { useState, useEffect } from 'react';
 
 function ShopContentProduct({

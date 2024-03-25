@@ -1,17 +1,14 @@
-import { useSelector, useDispatch } from 'react-redux';
-import { Empty, Button } from 'antd';
+import { Button, Empty } from 'antd';
 import Link from 'next/link';
 import React from 'react';
+import { useSelector } from 'react-redux';
 
+import { formatNumber } from '../../utils/number';
+import { calculateTotalPrice } from '../../utils/shopUtils';
 import CartSidebarItem from './CartSidebarItem';
-import { calculateTotalPrice } from '../../common/shopUtils';
-import { formatCurrency } from '../../common/utils';
 
 function CartSidebar() {
-  const dispatch = useDispatch();
   const cartState = useSelector(state => state.cartReducer);
-  const globalState = useSelector(state => state.globalReducer);
-  const { currency, locales } = globalState.currency;
   return cartState.length === 0 ? (
     <Empty description='No products in cart' />
   ) : (
@@ -25,7 +22,7 @@ function CartSidebar() {
         <h5>
           Total:{' '}
           <span>
-            {formatCurrency(calculateTotalPrice(cartState), locales, currency)}
+            {formatNumber(calculateTotalPrice(cartState))}
           </span>
         </h5>
         <div className='cart-sidebar-total__buttons'>
