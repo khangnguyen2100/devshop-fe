@@ -20,16 +20,17 @@ function Product({ data, productStyle }) {
   const dispatch = useDispatch();
   const [visible, setVisible] = useState(false);
   const [imageLoading, setImageLoading] = useState(true);
+  console.log('imageLoading:', imageLoading)
   const globalState = useSelector(state => state.globalReducer);
   const cartState = useSelector(state => state.cartReducer);
   const wishlistState = useSelector(state => state.wishlistReducer);
-  const productInWishlist = checkProductInWishlist(wishlistState, data.id);
+  const productInWishlist = checkProductInWishlist(wishlistState, data._id);
   const avaiableQuantity = checkAvaiableQuantityToAdd(cartState, data);
-  const { currency, locales } = globalState.currency;
   useEffect(() => {
     setImageLoading(true);
   }, [globalState.category]);
   const renderProductType = () => {
+    return null;
     if (data.discount && !data.isNew) {
       return <p className='product-type -sale'>Sale</p>;
     } else if (data.isNew && !data.discount) {
@@ -40,7 +41,6 @@ function Product({ data, productStyle }) {
       return null;
     }
   };
-  console.log(avaiableQuantity);
   const onAddToCart = data => {
     if (avaiableQuantity === 0) {
       return;
@@ -50,7 +50,7 @@ function Product({ data, productStyle }) {
   };
   const onAddToWishlist = data => {
     if (productInWishlist) {
-      dispatch(removeFromWishlist(data.id));
+      dispatch(removeFromWishlist(data._id));
       return message.error('Product removed from wishlist');
     } else {
       dispatch(addToWishlist(data));
@@ -83,19 +83,16 @@ function Product({ data, productStyle }) {
       <div className={`product ${renderStyleClass()}`}>
         <div className='product-image'>
           <Link
-            href={process.env.PUBLIC_URL + `/product/[slug]`}
-            as={process.env.PUBLIC_URL + `/product/${data.slug}`}
+            href={process.env.NEXT_PUBLIC_URL + `/product/[slug]`}
+            as={process.env.NEXT_PUBLIC_URL + `/product/${data.productSlug}`}
           >
             <a className={classNames({ loading: imageLoading })}>
-              {data.thumbImage &&
-                data.thumbImage.map((item, index) => (
-                  <img
-                    onLoad={handleImageLoaded}
-                    key={index}
-                    src={item}
-                    alt='Product image'
-                  />
-                ))}
+              <img
+                onLoad={handleImageLoaded}
+                // src={data.productThumb}
+                src={'https://down-vn.img.susercontent.com/file/4a7fc7364c6e267ab67a479465fce3df'}
+                alt='Product image'
+              />
             </a>
           </Link>
           {imageLoading && (
@@ -165,23 +162,20 @@ function Product({ data, productStyle }) {
         </div>
         <div className='product-content'>
           <Link
-            href={process.env.PUBLIC_URL + `/product/[slug]`}
-            as={process.env.PUBLIC_URL + `/product/${data.slug}`}
+            href={process.env.NEXT_PUBLIC_URL + `/product/[slug]`}
+            as={process.env.NEXT_PUBLIC_URL + `/product/${data.productSlug}`}
           >
-            <a className='product-name'>{data.name}</a>
+            <a className='product-name'>{data.productName}</a>
           </Link>
           <div className='product-rate'>
-            <Rate defaultValue={data.rate} disabled />
+            <Rate defaultValue={data.productRatingAverage} disabled />
             <span className='product-rate-quantity'>(06)</span>
           </div>
           <div className='product-content__footer'>
             <div className='product-content__footer-price'>
               <h5 className='product-price'>
-                {data.discount
-                  ? formatNumber(data.price - data.discount)
-                  : formatNumber(data.price)}
+                {formatNumber(data.productPrice)}
               </h5>
-              {data.discount && <span>{formatNumber(data.price)}</span>}
             </div>
             {!productStyle || productStyle === 'one' ? (
               <Tooltip title='Add to cart'>

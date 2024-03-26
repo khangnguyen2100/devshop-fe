@@ -103,15 +103,15 @@ export const checkProductInCart = (cartArr, pid) => {
 };
 
 export const checkAvaiableQuantityToAdd = (arr, product) => {
-  const productsInCart = arr.filter(item => item.id === product.id);
+  const productsInCart = arr.filter(item => item.id === product._id);
   if (productsInCart && productsInCart.length > 0) {
     const totalProductQuantityInCart =
       productsInCart.length > 0 &&
       productsInCart.reduce((total, item) => total + item.cartQuantity, 0);
-    let avaiable = product.quantity - totalProductQuantityInCart;
+    let avaiable = product.productQuantity - totalProductQuantityInCart;
     return avaiable < 1 ? 0 : avaiable;
   } else {
-    product.quantity;
+    product.productQuantity;
   }
 };
 

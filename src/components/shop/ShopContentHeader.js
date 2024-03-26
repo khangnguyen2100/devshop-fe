@@ -1,9 +1,14 @@
 import { Select } from 'antd';
+import { useGetAllProductByUser } from 'api/product';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { setSort } from 'redux/actions/shopActions';
 
-function ShopContentHeader({ data, productPerPage }) {
+function ShopContentHeader({ productPerPage }) {
+  const { data } = useGetAllProductByUser({
+    limit: 10,
+    page: 0,
+  });
   const { Option } = Select;
   const dispatch = useDispatch();
   const shopState = useSelector(state => state.shopReducer);
@@ -14,7 +19,7 @@ function ShopContentHeader({ data, productPerPage }) {
     <div className='shop-content__header'>
       <div className='shop-content__header-showing'>
         <h5>
-          Showing 1 - {productPerPage} of {data.length} Products
+          Showing 1 - {data?.page + 1} of {data?.total} Products
         </h5>
       </div>
       <div className='shop-content__header-filter'>

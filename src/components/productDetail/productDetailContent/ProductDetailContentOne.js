@@ -41,20 +41,15 @@ function ProductDetailContentOne({
   };
   return (
     <div className='product-detail-content-one'>
-      <h3>{data.name}</h3>
+      <h3>{data.productName}</h3>
       <div className='product-detail-content-one-rate'>
-        <Rate disabled defaultValue={data.rate} />
+        <Rate disabled defaultValue={data.productRatingAverage} />
         <span className='product-detail-content-one-review-count'>
           - 5 Reviews
         </span>
       </div>
       <div className='product-detail-content-one-price'>
-        <h5>
-          {data.discount
-            ? formatNumber(data.price - data.discount)
-            : formatNumber(data.price)}
-        </h5>
-        {data.discount && <span>{formatNumber(data.price)}</span>}
+        <h5>{formatNumber(data.productPrice)}</h5>
       </div>
       <p className='product-detail-content-one-description'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illo
@@ -109,7 +104,7 @@ function ProductDetailContentOne({
           </div>
         </>
       )}
-      <div className='product-detail-content-one-variation'>
+      {/* <div className='product-detail-content-one-variation'>
         {data.size && (
           <div className='variation-item -size'>
             <>
@@ -141,7 +136,7 @@ function ProductDetailContentOne({
             </>
           </div>
         )}
-      </div>
+      </div> */}
       <div className='product-detail-content-one-actions'>
         <QuantitySelector
           noRound={quantityControllerNoRound}
