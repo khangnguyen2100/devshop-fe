@@ -50,8 +50,8 @@ function WishlistSidebarItem({ data }) {
         </div>
         <div className='wishlist-sidebar-item__content'>
           <Link
-            href={process.env.PUBLIC_URL + `/product/[slug]`}
-            as={process.env.PUBLIC_URL + `/product/${data.slug}`}
+            href={process.env.NEXT_PUBLIC_URL + `/product/[slug]`}
+            as={process.env.NEXT_PUBLIC_URL + `/product/${data.slug}`}
           >
             <a>{data.name}</a>
           </Link>

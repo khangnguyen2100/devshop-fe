@@ -4,6 +4,7 @@
     overflow: hidden;
     position: relative;
     background-color: #ebebeb;
+    height: 280px;
     &:hover {
       a {
         img {
@@ -15,6 +16,7 @@
       }
     }
     a {
+      height: 100%;
       display: block;
       &.loading {
         display: none;
@@ -29,7 +31,6 @@
           left: 0;
           bottom: 0;
           right: 0;
-          opacity: 0;
         }
       }
     }

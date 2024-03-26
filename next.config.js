@@ -11,7 +11,7 @@ if (typeof require !== "undefined") {
 module.exports = withLess(
   withSass({
     env: {
-      PUBLIC_URL: "",
+      NEXT_PUBLIC_URL: "",
     },
     lessLoaderOptions: {
       javascriptEnabled: true,

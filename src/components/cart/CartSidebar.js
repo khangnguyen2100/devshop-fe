@@ -27,7 +27,7 @@ function CartSidebar() {
         </h5>
         <div className='cart-sidebar-total__buttons'>
           <Button type='primary' shape='round'>
-            <Link href={process.env.PUBLIC_URL + '/shop/checkout'}>
+            <Link href={process.env.NEXT_PUBLIC_URL + '/shop/checkout'}>
               <a>Checkout</a>
             </Link>
           </Button>

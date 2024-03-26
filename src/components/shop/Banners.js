@@ -9,11 +9,11 @@ export default function Banners({ containerType }) {
         <Row gutter={30}>
           {Array.from({ length: 3 }, (item, index) => (
             <Col key={index} className='gutter-row' span={24} sm={8}>
-              <Link href={process.env.PUBLIC_URL + '#'}>
+              <Link href={process.env.NEXT_PUBLIC_URL + '#'}>
                 <a className='banner-item'>
                   <img
                     src={
-                      process.env.PUBLIC_URL +
+                      process.env.NEXT_PUBLIC_URL +
                       `/assets/images/banners/${index + 1}.png`
                     }
                     alt='banner'

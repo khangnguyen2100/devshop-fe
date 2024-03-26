@@ -49,7 +49,7 @@ function ProductDetailImageThree({ imageData }) {
       <Slider {...settings}>
         {imageData.map((item, index) => (
           <div className='slider-item' key={index}>
-            <img src={process.env.PUBLIC_URL + item} alt='Product image' />
+            <img src={process.env.NEXT_PUBLIC_URL + item} alt='Product image' />
           </div>
         ))}
       </Slider>

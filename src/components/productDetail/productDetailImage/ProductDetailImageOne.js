@@ -65,7 +65,7 @@ function ProductDetailImageOne({ imageData }) {
                   imageData.map((img, index) => (
                     <div key={index} className='slider-item'>
                       <img
-                        src={process.env.PUBLIC_URL + img}
+                        src={process.env.NEXT_PUBLIC_URL + img}
                         alt='Product image'
                       />
                     </div>
@@ -92,7 +92,7 @@ function ProductDetailImageOne({ imageData }) {
                     <div key={index} className='slider-item'>
                       <ZoomImage
                         disableOnMobile
-                        src={process.env.PUBLIC_URL + img}
+                        src={process.env.NEXT_PUBLIC_URL + img}
                         alt='Product image'
                       />
                     </div>

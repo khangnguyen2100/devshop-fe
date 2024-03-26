@@ -7,7 +7,7 @@ function ProductDetailImageTwo({ imageData }) {
         imageData.map((item, index) => (
           <img
             key={index}
-            src={process.env.PUBLIC_URL + item}
+            src={process.env.NEXT_PUBLIC_URL + item}
             alt='Product image'
           />
         ))}

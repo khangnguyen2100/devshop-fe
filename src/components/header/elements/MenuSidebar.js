@@ -12,7 +12,7 @@ function MenuSidebar() {
             <Menu.Item key='5'>
               <Link
                 href={
-                  process.env.PUBLIC_URL +
+                  process.env.NEXT_PUBLIC_URL +
                   '/shop/product-detail/product-detail-1'
                 }
               >
@@ -22,7 +22,7 @@ function MenuSidebar() {
             <Menu.Item key='6'>
               <Link
                 href={
-                  process.env.PUBLIC_URL +
+                  process.env.NEXT_PUBLIC_URL +
                   '/shop/product-detail/product-detail-2'
                 }
               >
@@ -32,7 +32,7 @@ function MenuSidebar() {
             <Menu.Item key='7'>
               <Link
                 href={
-                  process.env.PUBLIC_URL +
+                  process.env.NEXT_PUBLIC_URL +
                   '/shop/product-detail/product-detail-3'
                 }
               >
@@ -41,23 +41,23 @@ function MenuSidebar() {
             </Menu.Item>
           </SubMenu>
           <Menu.Item key='8'>
-            <Link href={process.env.PUBLIC_URL + '/shop/checkout'}>
+            <Link href={process.env.NEXT_PUBLIC_URL + '/shop/checkout'}>
               <a>Checkout</a>
             </Link>
           </Menu.Item>
           <Menu.Item key='9'>
-            <Link href={process.env.PUBLIC_URL + '/shop/checkout-complete'}>
+            <Link href={process.env.NEXT_PUBLIC_URL + '/shop/checkout-complete'}>
               <a>Checkout Complete</a>
             </Link>
           </Menu.Item>
         </SubMenu>
         <Menu.Item key='10'>
-          <Link href={process.env.PUBLIC_URL + '#'}>
+          <Link href={process.env.NEXT_PUBLIC_URL + '#'}>
             <a>Help</a>
           </Link>
         </Menu.Item>
         <Menu.Item key='11'>
-          <Link href={process.env.PUBLIC_URL + '#'}>
+          <Link href={process.env.NEXT_PUBLIC_URL + '#'}>
             <a>Offer</a>
           </Link>
         </Menu.Item>

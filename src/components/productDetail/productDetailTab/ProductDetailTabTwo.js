@@ -59,7 +59,7 @@ export default function ProductDetailTabTwo() {
                 <td>
                   <img
                     src={
-                      process.env.PUBLIC_URL +
+                      process.env.NEXT_PUBLIC_URL +
                       '/assets/images/shop/shop-detail/care-icons.png'
                     }
                     alt='Care icon'

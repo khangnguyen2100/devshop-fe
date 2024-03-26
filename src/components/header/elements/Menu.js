@@ -36,10 +36,10 @@ function Menu({ containerType }) {
               <div></div>
             </a>
             <div className='menu-logo'>
-              <Link href={process.env.PUBLIC_URL + '/'}>
+              <Link href={process.env.NEXT_PUBLIC_URL + '/'}>
                 <a>
                   <img
-                    src={process.env.PUBLIC_URL + '/assets/images/logo.png'}
+                    src={process.env.NEXT_PUBLIC_URL + '/assets/images/logo.png'}
                     alt='Logo'
                   />
                 </a>
@@ -61,7 +61,7 @@ function Menu({ containerType }) {
               >
                 <img
                   src={
-                    process.env.PUBLIC_URL +
+                    process.env.NEXT_PUBLIC_URL +
                     '/assets/images/header/menu-wishlist.png'
                   }
                   alt=''
@@ -74,7 +74,7 @@ function Menu({ containerType }) {
               >
                 <img
                   src={
-                    process.env.PUBLIC_URL +
+                    process.env.NEXT_PUBLIC_URL +
                     '/assets/images/header/menu-bag.png'
                   }
                   alt=''

@@ -353,7 +353,7 @@ export default function checkout() {
           <Container>
             <div className='checkout-functions'>
               <Button className='checkout-functions--shopping'>
-                <Link href={process.env.PUBLIC_URL + '/'}>
+                <Link href={process.env.NEXT_PUBLIC_URL + '/'}>
                   <a>Continue Shopping</a>
                 </Link>
               </Button>

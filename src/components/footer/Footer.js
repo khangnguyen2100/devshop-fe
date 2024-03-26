@@ -18,7 +18,7 @@ function Footer({ containerType }) {
                   <a>
                     <img
                       src={
-                        process.env.PUBLIC_URL + '/assets/images/logo-dark.png'
+                        process.env.NEXT_PUBLIC_URL + '/assets/images/logo-dark.png'
                       }
                       alt='Logo'
                     />
